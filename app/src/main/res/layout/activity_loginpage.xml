@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".loginpage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENJOY YOUR FOOD"
+        android:textSize="47dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        />
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="337dp"
+        android:src="@drawable/gambarloginnew"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="masuk"/>
+
+</RelativeLayout>
